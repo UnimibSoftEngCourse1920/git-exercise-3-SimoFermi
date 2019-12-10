@@ -28,6 +28,14 @@ public class Assert {
     protected Assert() {
     }
 
+    public <T> void assertGreaterThan(T o1, T o2, java.util.Comparator<T> comparator) {
+        if(comparator.compare(o1, o2) > 0) {
+            System.out.println("o1 è più grande");
+        }
+        else {
+            System.out.println("o2 è più grande");
+        }
+    }
     /**
      * Asserts that a condition is true. If it isn't it throws an
      * {@link AssertionError} with the given message.
