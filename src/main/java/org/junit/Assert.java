@@ -45,6 +45,10 @@ public class Assert {
      * okay)
      * @param condition condition to be checked
      */
+    
+    // QUI VA INSERITO IL METODO DI COMPARAZIONE TRA OGGETTI PRIMITIVI
+    // Simile a quello creato nell'altro branch
+    // Il commento simula una modifica a questo file
     public static void assertTrue(String message, boolean condition) {
         if (!condition) {
             fail(message);

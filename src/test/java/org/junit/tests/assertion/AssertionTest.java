@@ -36,6 +36,13 @@ public class AssertionTest {
 
     private static final String ASSERTION_ERROR_EXPECTED = "AssertionError expected";
 
+    
+   
+    //  INSERIMENTO DEI METODI DI TEST PER METODO COMPARE DELLA CLASSE Assert.java
+    //  Il metodo compare a cui si riferisce è tra metodi primitivi
+    //  Simulazione dello sviluppatore 2
+    
+    
     @Test(expected = AssertionError.class)
     public void fails() {
         Assert.fail();
