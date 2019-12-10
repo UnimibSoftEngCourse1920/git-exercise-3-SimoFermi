@@ -36,6 +36,10 @@ public class AssertionTest {
         Assert.fail();
     }
 
+    
+    //  QUI CI VA IL METODO CHE TESTA IL COMPARE DI Assert.java
+    //  Non riesco a effettuare il test in quanto compara due oggetti di tipo diverso.
+    
     @Test
     public void failWithNoMessageToString() {
         try {
